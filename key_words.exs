@@ -23,7 +23,7 @@ IO.puts k2[:b];
 cook = fn (heat, foods) -> Keyword.values(foods) |> Enum.map(&("heat " <> &1)) end;
 IO.inspect cook.( "fried", [ meat: "sausge", veg: "beans"] );
 
-# barkets are optional
+# brakets are optional
 IO.inspect cook.( "fried", meat: "sausge", veg: "beans" );
 
 if false do
